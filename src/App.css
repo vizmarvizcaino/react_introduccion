@@ -1,0 +1,45 @@
+*{
+font-family: helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid blue;
+  background-color: #101113;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.container-submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  width: 100%;
+  background-color: #E65F28;
+  color: white;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.submit:hover {
+  background-color: blueviolet;
+}
